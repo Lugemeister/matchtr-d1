@@ -39,7 +39,6 @@ namespace WindowsFormsApp4
             File.Delete(path);
             if (!File.Exists(path))
             {
-                // Create a file to write to.
                 using (StreamWriter sw = File.CreateText(path))
                 {
                 }
